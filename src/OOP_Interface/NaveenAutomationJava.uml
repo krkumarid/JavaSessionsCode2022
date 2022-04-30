@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_aEAqYIFdEeyC_evPA9yR6g" name="NaveenAutomationJava">
+    <eAnnotations xmi:id="_aSQhwIFdEeyC_evPA9yR6g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_aSQhwYFdEeyC_evPA9yR6g" source="codegen">
+        <details xmi:id="_aSQhwoFdEeyC_evPA9yR6g" key="codegenDirectory" value="/NaveenAutomationJava/src"/>
+        <details xmi:id="_adZawIFdEeyC_evPA9yR6g" key="AssociatedSourceCode" value="/NaveenAutomationJava/src/OOP_Interface/FortisHospital.java;2034174925/1;/NaveenAutomationJava/src/OOP_Interface/IndiaMedical.java;1547553907/1;/NaveenAutomationJava/src/OOP_Interface/UKMedical.java;800913876/1;/NaveenAutomationJava/src/OOP_Interface/USMedical.java;826774485/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_aai7EIFdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_aai7EYFdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_aai7EoFdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_aajiIIFdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_aajiIYFdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_aajiIoFdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_aajiI4FdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_aajiJIFdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_aajiJYFdEeyC_evPA9yR6g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aanzkIFdEeyC_evPA9yR6g" name="OOP_Interface">
+      <packagedElement xmi:type="uml:Class" xmi:id="_aaw9gIFdEeyC_evPA9yR6g" name="FortisHospital">
+        <interfaceRealization xmi:id="_abPeoIFdEeyC_evPA9yR6g" client="_aaw9gIFdEeyC_evPA9yR6g" supplier="_aa5gYoFdEeyC_evPA9yR6g" contract="_aa5gYoFdEeyC_evPA9yR6g"/>
+        <interfaceRealization xmi:id="_abPeoYFdEeyC_evPA9yR6g" client="_aaw9gIFdEeyC_evPA9yR6g" supplier="_aa45U4FdEeyC_evPA9yR6g" contract="_aa45U4FdEeyC_evPA9yR6g"/>
+        <interfaceRealization xmi:id="_983kEIFdEeyC_evPA9yR6g" client="_aaw9gIFdEeyC_evPA9yR6g" supplier="_aa4SQIFdEeyC_evPA9yR6g" contract="_aa4SQIFdEeyC_evPA9yR6g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abU-MIFdEeyC_evPA9yR6g" name="orthoServices" specification="_aazZwIFdEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH - Ortho Services&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abYokIFdEeyC_evPA9yR6g" name="physioServices" specification="_aa1O8oFdEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH - Physio Services&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abYokYFdEeyC_evPA9yR6g" name="cardioServices" specification="_aa12A4FdEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH - Cardio Services&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abYokoFdEeyC_evPA9yR6g" name="pediServices" specification="_aa2dE4FdEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH - Pediatric Services&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abYok4FdEeyC_evPA9yR6g" name="entServices" specification="_aa3EI4FdEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH - ENT Services&quot;);&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_984LIIFdEeyC_evPA9yR6g" name="gynicServices" specification="_981u4IFdEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH - Gynic Services&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_984yMIFdEeyC_evPA9yR6g" name="neuroServices" specification="_981u44FdEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH - Neuro Services&quot;);&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_984yMYFdEeyC_evPA9yR6g" name="oncologyServices" specification="_982V8oFdEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH - Oncology Services&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ho7tAIFgEeyC_evPA9yR6g" name="pathologyServices" specification="_ho530IFgEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH Local - Ortho Pathology Services&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ho7tAYFgEeyC_evPA9yR6g" name="medicalInsurance" specification="_ho530YFgEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH Local - Medical Insurance Services&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ho7tAoFgEeyC_evPA9yR6g" name="emergencyServices" specification="_ho530oFgEeyC_evPA9yR6g">
+          <language>java</language>
+          <body>System.out.println(&quot;FH-- Emergency Services&quot;);&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_73DNcIFlEeyC_evPA9yR6g" name="test" specification="_73CmYIFlEeyC_evPA9yR6g">
+          <ownedParameter xmi:id="_73DNcYFlEeyC_evPA9yR6g" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;The passed value :&quot; + i );&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aazZwIFdEeyC_evPA9yR6g" name="orthoServices" method="_abU-MIFdEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_aa1O8oFdEeyC_evPA9yR6g" name="physioServices" method="_abYokIFdEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_aa12A4FdEeyC_evPA9yR6g" name="cardioServices" method="_abYokYFdEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_aa2dE4FdEeyC_evPA9yR6g" name="pediServices" method="_abYokoFdEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_aa3EI4FdEeyC_evPA9yR6g" name="entServices" method="_abYok4FdEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_981u4IFdEeyC_evPA9yR6g" name="gynicServices" method="_984LIIFdEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_981u44FdEeyC_evPA9yR6g" name="neuroServices" method="_984yMIFdEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_982V8oFdEeyC_evPA9yR6g" name="oncologyServices" method="_984yMYFdEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_ho530IFgEeyC_evPA9yR6g" name="pathologyServices" method="_ho7tAIFgEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_ho530YFgEeyC_evPA9yR6g" name="medicalInsurance" method="_ho7tAYFgEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_ho530oFgEeyC_evPA9yR6g" name="emergencyServices" method="_ho7tAoFgEeyC_evPA9yR6g"/>
+        <ownedOperation xmi:id="_73CmYIFlEeyC_evPA9yR6g" name="test" method="_73DNcIFlEeyC_evPA9yR6g">
+          <ownedParameter xmi:id="_73CmYYFlEeyC_evPA9yR6g" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_aa4SQIFdEeyC_evPA9yR6g" name="IndiaMedical">
+        <ownedOperation xmi:id="_aa45UIFdEeyC_evPA9yR6g" name="gynicServices"/>
+        <ownedOperation xmi:id="_aa45UYFdEeyC_evPA9yR6g" name="neuroServices"/>
+        <ownedOperation xmi:id="_aa45UoFdEeyC_evPA9yR6g" name="oncologyServices"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_aa45U4FdEeyC_evPA9yR6g" name="UKMedical">
+        <ownedOperation xmi:id="_aa5gYIFdEeyC_evPA9yR6g" name="pediServices"/>
+        <ownedOperation xmi:id="_aa5gYYFdEeyC_evPA9yR6g" name="entServices"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_aa5gYoFdEeyC_evPA9yR6g" name="USMedical">
+        <ownedAttribute xmi:id="_waeR4IFkEeyC_evPA9yR6g" name="minimalFee">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_2fPQsIFkEeyC_evPA9yR6g" value="25"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_aa6HcIFdEeyC_evPA9yR6g" name="orthoServices"/>
+        <ownedOperation xmi:id="_aa6HcYFdEeyC_evPA9yR6g" name="physioServices"/>
+        <ownedOperation xmi:id="_aa6HcoFdEeyC_evPA9yR6g" name="cardioServices"/>
+        <ownedOperation xmi:id="_Eu0HEIFgEeyC_evPA9yR6g" name="emergencyServices"/>
+        <ownedOperation xmi:id="_l4MJcIFlEeyC_evPA9yR6g" name="test">
+          <ownedParameter xmi:id="_l4MJcYFlEeyC_evPA9yR6g" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_aSS-AIFdEeyC_evPA9yR6g">
+      <eAnnotations xmi:id="_aScvAIFdEeyC_evPA9yR6g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_aSgZYIFdEeyC_evPA9yR6g" base_Package="_aEAqYIFdEeyC_evPA9yR6g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa0n4IFdEeyC_evPA9yR6g" base_Element="_aazZwIFdEeyC_evPA9yR6g"/>
+  <UMLLabProfile:Annotations xmi:id="_aa1O8IFdEeyC_evPA9yR6g" base_Element="_aazZwIFdEeyC_evPA9yR6g">
+    <annotations xmi:id="_aa1O8YFdEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa12AIFdEeyC_evPA9yR6g" base_Element="_aa1O8oFdEeyC_evPA9yR6g"/>
+  <UMLLabProfile:Annotations xmi:id="_aa12AYFdEeyC_evPA9yR6g" base_Element="_aa1O8oFdEeyC_evPA9yR6g">
+    <annotations xmi:id="_aa12AoFdEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa2dEIFdEeyC_evPA9yR6g" base_Element="_aa12A4FdEeyC_evPA9yR6g"/>
+  <UMLLabProfile:Annotations xmi:id="_aa2dEYFdEeyC_evPA9yR6g" base_Element="_aa12A4FdEeyC_evPA9yR6g">
+    <annotations xmi:id="_aa2dEoFdEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa3EIIFdEeyC_evPA9yR6g" base_Element="_aa2dE4FdEeyC_evPA9yR6g"/>
+  <UMLLabProfile:Annotations xmi:id="_aa3EIYFdEeyC_evPA9yR6g" base_Element="_aa2dE4FdEeyC_evPA9yR6g">
+    <annotations xmi:id="_aa3EIoFdEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa3EJIFdEeyC_evPA9yR6g" base_Element="_aa3EI4FdEeyC_evPA9yR6g"/>
+  <UMLLabProfile:Annotations xmi:id="_aa3rMIFdEeyC_evPA9yR6g" base_Element="_aa3EI4FdEeyC_evPA9yR6g">
+    <annotations xmi:id="_aa3rMYFdEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_981u4YFdEeyC_evPA9yR6g" base_Element="_981u4IFdEeyC_evPA9yR6g">
+    <annotations xmi:id="_981u4oFdEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_982V8IFdEeyC_evPA9yR6g" base_Element="_981u44FdEeyC_evPA9yR6g">
+    <annotations xmi:id="_982V8YFdEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_982V84FdEeyC_evPA9yR6g" base_Element="_982V8oFdEeyC_evPA9yR6g">
+    <annotations xmi:id="_982V9IFdEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9829AIFdEeyC_evPA9yR6g" base_Element="_981u4IFdEeyC_evPA9yR6g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9829AYFdEeyC_evPA9yR6g" base_Element="_981u44FdEeyC_evPA9yR6g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9829AoFdEeyC_evPA9yR6g" base_Element="_982V8oFdEeyC_evPA9yR6g"/>
+  <UMLLabProfile:Annotations xmi:id="_ho5304FgEeyC_evPA9yR6g" base_Element="_ho530oFgEeyC_evPA9yR6g">
+    <annotations xmi:id="_ho6e4IFgEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ho7F8IFgEeyC_evPA9yR6g" base_Element="_ho530oFgEeyC_evPA9yR6g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wae48YFkEeyC_evPA9yR6g" base_Element="_waeR4IFkEeyC_evPA9yR6g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_73CmYoFlEeyC_evPA9yR6g" base_Element="_73CmYIFlEeyC_evPA9yR6g"/>
+  <UMLLabProfile:Annotations xmi:id="_73CmY4FlEeyC_evPA9yR6g" base_Element="_73CmYIFlEeyC_evPA9yR6g">
+    <annotations xmi:id="_73CmZIFlEeyC_evPA9yR6g" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>

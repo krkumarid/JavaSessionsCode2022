@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_aF9LIIFdEeyC_evPA9yR6g">
+  <modelElement href="NaveenAutomationJava.uml#_aanzkIFdEeyC_evPA9yR6g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aeOhMIFdEeyC_evPA9yR6g" sourceAnchor="88.0,0.0" targetAnchor="86.0,136.0" dashed="true" superClass="_aeHzgIFdEeyC_evPA9yR6g" subClass="_aeRkgIFdEeyC_evPA9yR6g">
+    <modelElement href="NaveenAutomationJava.uml#_abPeoIFdEeyC_evPA9yR6g"/>
+    <visualProperties xmi:id="_luhJsIFdEeyC_evPA9yR6g" position="485.0,-126.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aegOAIFdEeyC_evPA9yR6g" sourceAnchor="0.0,117.0" targetAnchor="79.0,112.0" dashed="true" superClass="_aeg1EIFdEeyC_evPA9yR6g" subClass="_aeRkgIFdEeyC_evPA9yR6g">
+    <modelElement href="NaveenAutomationJava.uml#_abPeoYFdEeyC_evPA9yR6g"/>
+    <visualProperties xmi:id="_luhwwIFdEeyC_evPA9yR6g" position="485.0,-126.0"/>
+    <bendpoints xmi:id="_AEA2wIFeEeyC_evPA9yR6g" sourceX="-128" targetY="247"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_99G0oIFdEeyC_evPA9yR6g" sourceAnchor="220.0,117.0" targetAnchor="95.0,162.0" dashed="true" superClass="_adiksIFdEeyC_evPA9yR6g" subClass="_aeRkgIFdEeyC_evPA9yR6g">
+    <modelElement href="NaveenAutomationJava.uml#_983kEIFdEeyC_evPA9yR6g"/>
+    <bendpoints xmi:id="_AEBd0IFeEeyC_evPA9yR6g" sourceX="149" targetY="227"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aeHzgIFdEeyC_evPA9yR6g" name="USMedical" subclassedBy="_aeOhMIFdEeyC_evPA9yR6g">
+    <modelElement href="NaveenAutomationJava.uml#_aa5gYoFdEeyC_evPA9yR6g"/>
+    <visualProperties xmi:id="_aeHzgYFdEeyC_evPA9yR6g" position="399.0,-454.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aeHzgoFdEeyC_evPA9yR6g" label="+"/>
+    <attributes xmi:id="_wah8QIFkEeyC_evPA9yR6g" defaultValue="25" name="minimalFee">
+      <modelElement href="NaveenAutomationJava.uml#_waeR4IFkEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_wah8QYFkEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_wae48YFkEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_wah8QoFkEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_wah8Q4FkEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+      <type xmi:id="_wah8RIFkEeyC_evPA9yR6g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aeHzg4FdEeyC_evPA9yR6g" name="orthoServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa6HcIFdEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_aeHzhIFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeHzhYFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aeHzhoFdEeyC_evPA9yR6g" name="physioServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa6HcYFdEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_aeHzh4FdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeHziIFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aeHziYFdEeyC_evPA9yR6g" name="cardioServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa6HcoFdEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_aeHzioFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeHzi4FdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Eu1VMIFgEeyC_evPA9yR6g" name="emergencyServices">
+      <modelElement href="NaveenAutomationJava.uml#_Eu0HEIFgEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_Eu1VMYFgEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_Eu1VMoFgEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_l4NXkIFlEeyC_evPA9yR6g" name="test">
+      <modelElement href="NaveenAutomationJava.uml#_l4MJcIFlEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_l4NXkYFlEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_l4NXkoFlEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_l4NXk4FlEeyC_evPA9yR6g" name="i">
+        <modelElement href="NaveenAutomationJava.uml#_l4MJcYFlEeyC_evPA9yR6g"/>
+        <cardinality xmi:id="_l4NXlIFlEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+        <type xmi:id="_l4NXlYFlEeyC_evPA9yR6g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aeg1EIFdEeyC_evPA9yR6g" name="UKMedical" subclassedBy="_aegOAIFdEeyC_evPA9yR6g">
+    <modelElement href="NaveenAutomationJava.uml#_aa45U4FdEeyC_evPA9yR6g"/>
+    <visualProperties xmi:id="_aeg1EYFdEeyC_evPA9yR6g" position="190.0,-449.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aeg1EoFdEeyC_evPA9yR6g" label="+"/>
+    <operations xmi:id="_aeg1E4FdEeyC_evPA9yR6g" name="pediServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa5gYIFdEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_aeg1FIFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeg1FYFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aeg1FoFdEeyC_evPA9yR6g" name="entServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa5gYYFdEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_aeg1F4FdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeg1GIFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_adiksIFdEeyC_evPA9yR6g" name="IndiaMedical" subclassedBy="_99G0oIFdEeyC_evPA9yR6g">
+    <modelElement href="NaveenAutomationJava.uml#_aa4SQIFdEeyC_evPA9yR6g"/>
+    <visualProperties xmi:id="_adiksYFdEeyC_evPA9yR6g" position="671.0,-479.0" size="191.0,162.0"/>
+    <visibility xmi:id="_adiksoFdEeyC_evPA9yR6g" label="+"/>
+    <operations xmi:id="_adiks4FdEeyC_evPA9yR6g" name="gynicServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa45UIFdEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_adiktIFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_adiktYFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_adiktoFdEeyC_evPA9yR6g" name="neuroServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa45UYFdEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_adikt4FdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_adikuIFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_adikuYFdEeyC_evPA9yR6g" name="oncologyServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa45UoFdEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_adikuoFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_adiku4FdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aeRkgIFdEeyC_evPA9yR6g" name="FortisHospital" generalizations="_aeOhMIFdEeyC_evPA9yR6g _aegOAIFdEeyC_evPA9yR6g _99G0oIFdEeyC_evPA9yR6g">
+    <modelElement href="NaveenAutomationJava.uml#_aaw9gIFdEeyC_evPA9yR6g"/>
+    <visualProperties xmi:id="_aeRkgYFdEeyC_evPA9yR6g" position="397.0,-207.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aeRkgoFdEeyC_evPA9yR6g" label="+"/>
+    <operations xmi:id="_aeRkg4FdEeyC_evPA9yR6g" name="orthoServices">
+      <modelElement href="NaveenAutomationJava.uml#_aazZwIFdEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_aeRkhIFdEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_aa0n4IFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aeRkhYFdEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_aa1O8IFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_aeRkhoFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeRkh4FdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aeRkiIFdEeyC_evPA9yR6g" name="physioServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa1O8oFdEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_aeSLkIFdEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_aa12AIFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aeSLkYFdEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_aa12AYFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_aeSLkoFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeSLk4FdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aeSLlIFdEeyC_evPA9yR6g" name="cardioServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa12A4FdEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_aeSLlYFdEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_aa2dEIFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aeSLloFdEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_aa2dEYFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_aeSLl4FdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeSLmIFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aeSLmYFdEeyC_evPA9yR6g" name="pediServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa2dE4FdEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_aeSLmoFdEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_aa3EIIFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aeSLm4FdEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_aa3EIYFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_aeSLnIFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeSLnYFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aeSLnoFdEeyC_evPA9yR6g" name="entServices">
+      <modelElement href="NaveenAutomationJava.uml#_aa3EI4FdEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_aeSLn4FdEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_aa3EJIFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aeSLoIFdEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_aa3rMIFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_aeSLoYFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_aeSLooFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_986AUIFdEeyC_evPA9yR6g" name="gynicServices">
+      <modelElement href="NaveenAutomationJava.uml#_981u4IFdEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_986AUYFdEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_981u4YFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_986AUoFdEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_9829AIFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_986AU4FdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_986AVIFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_9871gIFdEeyC_evPA9yR6g" name="neuroServices">
+      <modelElement href="NaveenAutomationJava.uml#_981u44FdEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_9871gYFdEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_982V8IFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_9871goFdEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_9829AYFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_9871g4FdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_9871hIFdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_988ckIFdEeyC_evPA9yR6g" name="oncologyServices">
+      <modelElement href="NaveenAutomationJava.uml#_982V8oFdEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_989DoIFdEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_982V84FdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_989DoYFdEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_9829AoFdEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_989DooFdEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_989Do4FdEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ho8UEIFgEeyC_evPA9yR6g" name="pathologyServices">
+      <modelElement href="NaveenAutomationJava.uml#_ho530IFgEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_ho8UEYFgEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_ho8UEoFgEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ho-JQIFgEeyC_evPA9yR6g" name="medicalInsurance">
+      <modelElement href="NaveenAutomationJava.uml#_ho530YFgEeyC_evPA9yR6g"/>
+      <visibility xmi:id="_ho-JQYFgEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_ho-JQoFgEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ho_XYIFgEeyC_evPA9yR6g" name="emergencyServices">
+      <modelElement href="NaveenAutomationJava.uml#_ho530oFgEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_ho_XYYFgEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_ho5304FgEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ho_XYoFgEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_ho7F8IFgEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_ho_XY4FgEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_ho_XZIFgEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_73D0gIFlEeyC_evPA9yR6g" name="test">
+      <modelElement href="NaveenAutomationJava.uml#_73CmYIFlEeyC_evPA9yR6g"/>
+      <stereotypes xmi:id="_73D0gYFlEeyC_evPA9yR6g" name="LegacyStyledElement">
+        <modelElement href="NaveenAutomationJava.uml#_73CmYoFlEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_73D0goFlEeyC_evPA9yR6g" name="Annotations">
+        <modelElement href="NaveenAutomationJava.uml#_73CmY4FlEeyC_evPA9yR6g"/>
+      </stereotypes>
+      <visibility xmi:id="_73D0g4FlEeyC_evPA9yR6g" label="+"/>
+      <cardinality xmi:id="_73D0hIFlEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_73D0hYFlEeyC_evPA9yR6g" name="i">
+        <modelElement href="NaveenAutomationJava.uml#_73CmYYFlEeyC_evPA9yR6g"/>
+        <cardinality xmi:id="_73D0hoFlEeyC_evPA9yR6g" label="1" max="1" min="1"/>
+        <type xmi:id="_73D0h4FlEeyC_evPA9yR6g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
